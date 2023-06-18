@@ -1,0 +1,31 @@
+{
+  "name": "meu-site-uni7",
+  "version": "1.0.0",
+  "description": "Meu site uni7",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.7",
+    "express": "^4.18.2",
+    "html-lint": "^2.4.2",
+    "nodemon": "^2.0.22",
+    "request": "^2.88.2",
+    "tape": "^4.9.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbacefor/SIUNI7Site.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Marcelo Bezerra de Alcantara",
+  "license": "UNI7",
+  "bugs": {
+    "url": "https://github.com/mbacefor/SIUNI7Site/issues"
+  },
+  "homepage": "https://github.com/mbacefor/SIUNI7Site"
+}
